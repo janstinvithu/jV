@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: 'Poppins',sans-serif;
+}
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*--------navbar---------*/
+#navbar{
+	position: sticky;
+	top: 0;
+	background: white;
+	z-index: 10;
+}
+.bold{
+	font-size: 25px;
+	color: blue;
+}
+
+li{
+	padding: 5px;
+	color: blue;
+	font-weight: bold;
+	border: 2px solid transparent;
+}
+.nav-link a{
+	font-size: 15px;
+    color:  #0000ff;
+	
+	
+}
+.nav-link:hover{
+	border-bottom: 2px solid  #0000ff;
+}
+/*--------home---------*/
+span{
+	color: blue;
+	font-weight: bold;
+}
+p{
+	font-size: 18px;
+}
+
+#about img{
+  height: 350px;
+   
+ }  
+.card img{
+	height: 200px;
+	transition: 1s;
+}
+.inner{
+	overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+form{
+	padding: 40px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0,.2);
+}
